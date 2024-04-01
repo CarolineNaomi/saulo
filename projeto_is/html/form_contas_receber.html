@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>
+			Contas a Receber
+		</title>
+    </head>
+    <body>
+        <h1><center>Contas a receber</center></h1>        
+            <form id="formContasReceber" name="formContasReceber" method="POST" action="">
+                
+                <label>Data de Vencimento:</label>
+				<input type="date" name="data_vencimento" />
+
+                <label>Data de Pagamento:</label>
+				<input type="date" name="data_pagamento" />
+
+                <label>Data de Emissão:</label>
+				<input type="date" name="data_emissao" />
+
+                <label>Valor Original:</label>
+				<input type="text" name="valor_original" />
+
+                <label>Valor Pago:</label>
+				<input type="text" name="valor_pago" />
+
+                <label>Forma de Pagamento:</label>
+				<input type="text" name="forma_pagamento" />
+
+                <label>Vendedor:</label>
+				<input type="text" name="id_vendedor" />
+
+                <label>Vendas:</label>
+				<input type="text" name="id_vendas" />
+
+                <button type="submit">Salvar</button>
+            </form>
+    </body>
+</html>
